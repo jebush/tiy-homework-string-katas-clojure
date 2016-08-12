@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1471015344885">{:repl-history {:ide [], :local [&quot;(defn missing-char [str n]\n  (def front (subs str 0 n))\n  (def back (subs str ((+ n 1) (.length str))))\n  (println front back))\n\n(missing-char \&quot;kitten\&quot; 2)&quot; &quot;(def front (subs str 0 n))&quot; &quot;(def str \&quot;This\&quot;)&quot; &quot;(def text \&quot;thths\&quot;)&quot; &quot;(def front (subs text 0 2))&quot; &quot;front&quot;], :remote []}}</component>
+</project>
