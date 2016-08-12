@@ -120,12 +120,12 @@
   ;; Start oz function
   (defn start-oz [text]
     (println (str "(start-oz \"" text "\") -> ")
-             (if (and (>= (count text) 1) (.equals (.charAt text 0) "o"))
-               (str (.charAt text 0))
-               (if (and (>= (count text) 2) (.equals (.charAt text 1) "z"))
-                    (str (.charAt text 1))
-                    (if (and (>= (count text) 2) (.equals (.charAt text 1) "z") (.equals (.charAt text 0) "o"))
-                      (str (.charAt text 0) (.charAt text 1))
+             (if (and (>= (count text) 2) (.equals (str(.charAt text 1)) "z") (.equals (str (.charAt text 0)) "o"))
+               (str (.charAt text 0) (.charAt text 1))
+               (if (and (>= (count text) 1) (.equals (str (.charAt text 0)) "o"))
+                    (str (.charAt text 0))
+                    (if (and (>= (count text) 2) (.equals (str (.charAt text 1)) "z"))
+                      (str (.charAt text 1))
                       (str (subs text 0 2)))))))
   (start-oz "oThuis")
   (start-oz "Tohuis")

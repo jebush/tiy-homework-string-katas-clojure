@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b545c67-787d-466c-8752-17cc9f94e295" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj" afterPath="$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj" />
     </list>
     <ignored path="tiy-homework-string-katas-clojure.iws" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+            <state relative-caret-position="316">
+              <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -149,7 +151,7 @@
     <property name="settings.editor.selected.configurable" value="Clojure.IDE" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="ReplState" timestamp="1471015344885">{:repl-history {:ide [], :local [&quot;(defn missing-char [str n]\n  (def front (subs str 0 n))\n  (def back (subs str ((+ n 1) (.length str))))\n  (println front back))\n\n(missing-char \&quot;kitten\&quot; 2)&quot; &quot;(def front (subs str 0 n))&quot; &quot;(def str \&quot;This\&quot;)&quot; &quot;(def text \&quot;thths\&quot;)&quot; &quot;(def front (subs text 0 2))&quot; &quot;front&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1471016942039">{:repl-history {:ide [], :local [&quot;(defn missing-char [str n]\n  (def front (subs str 0 n))\n  (def back (subs str ((+ n 1) (.length str))))\n  (println front back))\n\n(missing-char \&quot;kitten\&quot; 2)&quot; &quot;(def front (subs str 0 n))&quot; &quot;(def str \&quot;This\&quot;)&quot; &quot;(def text \&quot;thths\&quot;)&quot; &quot;(def front (subs text 0 2))&quot; &quot;front&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure Application.core">
     <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="tiy-homework-string-katas-clojure" />
@@ -656,12 +658,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470926059579</updated>
-      <workItem from="1470926062888" duration="20136000" />
+      <workItem from="1470926062888" duration="21170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20136000" />
+    <option name="totallyTimeSpent" value="21170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="572" y="23" width="868" height="805" extended-state="0" />
@@ -675,7 +677,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -726,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tiy_homework_string_katas_clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+        <state relative-caret-position="316">
+          <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
           <folding />
         </state>
       </provider>
